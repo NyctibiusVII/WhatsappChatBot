@@ -1,3 +1,11 @@
+#configs pessoais
+.vscode
+
+#node
 node_modules
+
+#my token de conexão
 tokens
+
+#package-lock
 *-lock.json

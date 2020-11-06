@@ -1,5 +1,5 @@
--- Boas vindas e apresentar o cadápio 
--- Vendas 
+-- Horário de funcionamento
+-- Boas vindas e apresentar os tipos de roupas 
+-- Escolha 
 -- Resumo 
--- endereço de entrega 
 -- enceramento

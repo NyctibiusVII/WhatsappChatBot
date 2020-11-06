@@ -1,21 +1,14 @@
-const banco = require("../banco");
-const stages = require("../stages");
+const banco = require("../banco")
 
 function execute(user, msg) {
-  if (msg === "*") {
-    banco.db[user].stage = 0;
-    return ["Pedido cancelado com sucesso"];
-  }
+  let siteSearchComplete = "     AQUI ESTA:\n" //" "x5
+  banco.db[user].itens.forEach((value) => {
+    console.log(value)//- Teste
+    //siteSearchComplete += `-> ${value.linkSite}\n`
+    siteSearchComplete += `-> ${value.apparel}\n     ${value.linkSite}\n\n`//" "x5
+  })
 
-  if (msg === "#") {
-    banco.db[user].stage = 5;
-
-    return stages.step[5].obj.execute(user, "");
-  }
-  return [
-    `Confirma endereco de entrega : \n ${msg}`,
-    "```Digite # para continuar ou * para cancelar```",
-  ];
+  return [siteSearchComplete, banco.db[user].stage = 4]
 }
 
-exports.execute = execute;
+exports.execute = execute

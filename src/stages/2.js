@@ -1,29 +1,23 @@
-const banco = require("../banco");
+const banco = require("../banco")
+const main = require("../mainBD")
 
 function execute(user, msg) {
   if (msg === "*") {
-    banco.db[user].stage = 0;
-    return ["Pedido cancelado com sucesso"];
+    banco.db[user].stage = 0
+    return [`Cancelado! \nVocê ainda pode dar uma olhada em nosso site a qualquer momento.\n\nAcesse: ${main.main_bd["linkSite"]}`]
   }
 
   if (msg === "#") {
-    banco.db[user].stage = 3;
-    return ["Digite o endereço por favor :"];
+    banco.db[user].stage = 3
   }
 
-  let resumo = "  RESUMO DO PEDIDO \n";
-  let total = 0;
+  let resumo = "     INTERESSE EM:\n" //" "x5
   banco.db[user].itens.forEach((value) => {
-    console.log(value);
-    resumo += `${value.descricao} ----------------  ${value.preco} \n`;
+    console.log(value)//- Teste
+    resumo += `-> ${value.apparel}\n`
+  })
 
-    total += value.preco;
-  });
-
-  resumo += "-------------------------\n";
-  resumo += ` Total R$ ${total}`;
-
-  return [resumo, "Para confirmar digite # ou para cancelar digite * "];
+  return [resumo, "Para confirmar digite # ou para cancelar digite * "]
 }
 
-exports.execute = execute;
+exports.execute = execute

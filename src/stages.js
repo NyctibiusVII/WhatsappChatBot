@@ -1,28 +1,24 @@
 var stages = {
   0: {
-    descricao: "Boas Vindas",
+    description: "Boas vindas e apresentar os tipos de roupas",
     obj: require("./stages/0"),
   },
   1: {
-    descricao: "Vendas",
+    description: "Escolha",
     obj: require("./stages/1"),
   },
   2: {
-    descricao: "Resumo",
+    description: "Resumo",
     obj: require("./stages/2"),
   },
   3: {
-    descricao: "Endereço",
+    description: "Resposta",
     obj: require("./stages/3"),
   },
   4: {
-    descricao: "Enceramento",
+    description: "Enceramento",
     obj: require("./stages/4"),
-  },
-  5: {
-    descricao: "Forma de Pagamento",
-    obj: require("./stages/5"),
-  },
-};
+  }
+}
 
-exports.step = stages;
+exports.step = stages

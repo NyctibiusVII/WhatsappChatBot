@@ -1,15 +1,28 @@
 {
-  "name": "03-ZapBOT2",
+  "name": "WhatsappChatBot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node ./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./src/index.js",
+    "test": "node ./src/teste.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "WhatsappChatBot",
+    "javascript",
+    "bot",
+    "chat bot",
+    "bot",
+    "venom-bot",
+    "automatization",
+    "puppeteer"
+  ],
+  "author": {
+    "name": "Matheus Vidigal",
+    "username": "NyctibiusVII"
+  },
+  "license": "MIT",
   "dependencies": {
-    "venom-bot": "^1.0.4"
+    "venom-bot": "^2.0.18"
   }
 }
