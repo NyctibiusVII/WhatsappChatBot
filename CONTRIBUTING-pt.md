@@ -1,0 +1,1 @@
+# Os PRs são bem-vindos. Apenas mantenha o código o mais limpo possível e use as convenções JS comuns.
