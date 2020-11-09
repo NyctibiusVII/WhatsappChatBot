@@ -68,7 +68,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Próximos passos
 **A FAZER |**`Verificar o profile, se tiver diferente ele seta para ${NAME}`<br>
-**A FAZER |**`Erro das logoTexts (undefined) no log >bash`<br>
+**FEITO |**`Erro das logoTexts (undefined) no log >bash`<br>
 **FEITO |**`Qual type de audio? (TypeSyntax)`<br>
 **FEITO |**`Qual type de imagem? (TypeSyntax)`<br>
 **A FAZER |**`Parar quando usuário não adicionar NADA`<br>

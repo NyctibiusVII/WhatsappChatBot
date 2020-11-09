@@ -68,7 +68,7 @@ This project was developed with the following technologies:
 
 ## Next steps
 **DO |** `Check the profile, if different it sets ${NAME}`<br>
-**DO |** `LogoTexts error (undefined) in log >bash` <br>
+**DONE |** `LogoTexts error (undefined) in log >bash` <br>
 **DONE |** `What type of audio? (TypeSyntax)`<br>
 **DONE |** `Which type of image? (TypeSyntax)`<br>
 **DO |** `Stop when user does not add ANYTHING`<br>

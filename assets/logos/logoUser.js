@@ -1,4 +1,4 @@
-const logoUser = console.log(`
+const logoUser = `
                                                                                          
  ███▄    █ ▓██   ██▓ ▄████▄  ▄▄▄█████▓ ██▓ ▄▄▄▄    ██▓ █    ██   ██████  ██▒   █▓ ██▓ ██▓
  ██ ▀█   █  ▒██  ██▒▒██▀ ▀█  ▓  ██▒ ▓▒▓██▒▓█████▄ ▓██▒ ██  ▓██▒▒██    ▒ ▓██░   █▒▓██▒▓██▒
@@ -11,7 +11,7 @@ const logoUser = console.log(`
          ░  ░ ░     ░ ░                ░   ░       ░     ░           ░        ░   ░   ░  
             ░ ░     ░                           ░                            ░           
                                                                                          
-`)//Back-end
+`//Back-end
 exports.logoU = logoUser
 
 //credits - http://patorjk.com/software/taag/#p=testall&h=0&v=0&f=Ogre&t=YourName
