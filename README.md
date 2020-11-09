@@ -66,6 +66,18 @@ This project was developed with the following technologies:
    <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="100" height="100" />
 </div>
 
+## Next steps
+**DO |** `Check the profile, if different it sets ${NAME}`<br>
+**DO |** `LogoTexts error (undefined) in log >bash` <br>
+**DONE |** `What type of audio? (TypeSyntax)`<br>
+**DONE |** `Which type of image? (TypeSyntax)`<br>
+**DO |** `Stop when user does not add ANYTHING`<br>
+**----------** `Verification in the 1st - '#'`<br>
+**DO |** `When add at least 1 item, show option to delete items`<br>
+**DO |** `Decrease data confirmation`<br>
+**DO |** `Reverse the structure of the initial messages`<br>
+**DO |** `Join the thank you messages so that the user does not have to type again to get the answer`<br>
+
 ## Running the project 🚴🏻‍♂️
 
 ```bash

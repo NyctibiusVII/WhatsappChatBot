@@ -66,6 +66,18 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
    <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="100" height="100" />
 </div>
 
+## Next steps
+**DO |**`Verificar o profile, se tiver diferente ele seta para ${NAME}`<br>
+**DO |**`Erro das logoTexts (undefined) no log >bash`<br>
+**DONE |**`Qual type de audio? (TypeSyntax)`<br>
+**DONE |**`Qual type de imagem? (TypeSyntax)`<br>
+**DO |**`Parar quando usuário não adicionar NADA`<br>
+**----------** `Verificação no 1° - '#'`<br>
+**DO |**`Quando add pelo menos 1 item, mostrar opção para deletar itens`<br>
+**DO |**`Diminuir a confirmação de dados`<br>
+**DO |**`Inverter a estrutura das mensagens iniciais`<br>
+**DO |**`Juntar as mensagens de agradecimento para o usuário não ter que digitar mais uma vez para aparecer a resposta`<br>
+
 ## Rodando o projeto 🚴🏻‍♂️
 
 ```bash
