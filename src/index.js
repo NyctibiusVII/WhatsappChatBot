@@ -1,27 +1,29 @@
+const logoUser    = require("../assets/logos/logoUser")
+const logoProject = require("../assets/logos/logoProject")
 // Supports ES6
 // import { create, Whatsapp } from 'sulla'
-const bot = require("venom-bot")
-const banco = require("./banco")
+const bot    = require("venom-bot")
+const banco  = require("./banco")
 const stages = require("./stages")
 
-const main = require("./mainBD")
+const main      = require("./mainBD")
 const __opening = main.main_bd["opening"]
 const __closing = main.main_bd["closing"]
-const openDay = __opening[2]
-const closeDay = __closing[2]
+const openDay   = __opening[2]
+const closeDay  = __closing[2]
 
-const openHours = __opening[0]
-const openMinutes = __opening[1]
-const closeHours = __closing[0]
+const openHours    = __opening[0]
+const openMinutes  = __opening[1]
+const closeHours   = __closing[0]
 const closeMinutes = __closing[1]
 
 const hourInitial = [openHours,openMinutes]   //das __opening
 const hourFinal   = [closeHours,closeMinutes] //as  __closing
 
-let date = new Date()
-let day = date.getDay()
-let hour = date.getHours()
-let minutes = date.getMinutes()
+let date      = new Date()
+let day       = date.getDay()
+let hour      = date.getHours()
+let minutes   = date.getMinutes()
 let isWeekend = day == 0 || day == 6 ? true : false //- 0 domingo ou 6 sábado
 
 function verifyHour(hourInitial, hourFinal){
@@ -38,14 +40,15 @@ function verifyHour(hourInitial, hourFinal){
     }else if (hourNow[0] < hourFinal[0]/*hour<hourI*/) {
       return true
     }else{return false}
-  }else{return false}  
+  }else{return false}
 }
 
 let insideRange = verifyHour(hourInitial, hourFinal)
 
 
-//bot.create().then((client) => start(client))
+bot.create().then((client) => start(client))
 function start(client) {
+  console.log(`${logoUser.logoU}\n\n${logoProject.logoP}`)//- Print logos
   client.onMessage((message) => {
     if (isWeekend) {/* FIM DE SEMANA? */
       return [`     Ops!\n`+ //" "x5
