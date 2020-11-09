@@ -5,10 +5,10 @@
 <!-- <h4 align="center">Contexto...</h4> -->
 <p align="center">
   <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=Mobile/PC&color=25d366&labelColor=075e54">
-  <img alt="Versão" src="https://img.shields.io/static/v1?label=Versão&message=1.0&color=25d366&labelColor=075e54">
+  <img alt="Versão" src="https://img.shields.io/static/v1?label=Version&message=1.0&color=25d366&labelColor=075e54">
   <img alt="Tamanho do repo" src="https://img.shields.io/github/repo-size/NyctibiusVII/WhatsappChatBot?color=25d366&labelColor=075e54">
   <a href="https://github.com/NyctibiusVII/WhatsappChatBot/blob/master/LICENSE">
-    <img alt="Licença" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=25d366&labelColor=075e54">
+    <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=25d366&labelColor=075e54">
   </a>
   <a href="https://picpay.me/Matheus_nyctibius_vii">
   <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=25d366&labelColor=075e54">
