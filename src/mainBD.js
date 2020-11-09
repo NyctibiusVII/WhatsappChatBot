@@ -3,6 +3,9 @@ const mainBD = {
   linkSite: "https://www.nosso-site.com",
   tell: "(11) 98789-5029",
   saleswoman: "Susana Duarte",
+  email: "susyduarte23@hotmail.com",
+  email_dev: "mathueus.dev.07@gmail.com",
+  creativeDirector: "Susana Duarte",
   websiteCreator: "Matheus Vidigal",
   opening:{
     0:10,//Hora   inicial
